@@ -29,6 +29,19 @@ public class Main {
         return answer;
     }
 
+    public static String mySolution(String str){
+        String anwser = "";
+        for(char c : str.toCharArray()){
+            if(Character.isUpperCase(c)){
+                c = Character.toLowerCase(c);
+                anwser += String.valueOf(c);
+            }else {
+                c = Character.toUpperCase(c);
+                anwser += String.valueOf(c);
+            }
+        }
+        return anwser;
+    }
 
     public static void main(String[] args) {
         Main T = new Main();

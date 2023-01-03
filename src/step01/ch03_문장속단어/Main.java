@@ -8,17 +8,17 @@ public class Main {
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
 
-//        System.out.println(T.solution(str));
+        System.out.println(T.solution(str));
 
     }
 
     public String solution(String str) {
         String anwser = "";
         int m = Integer.MIN_VALUE;
-        String[] s = str.split(" ");
+        String[] s = str.split(" "); // split 이용
         for (String x : s) {
             int len = x.length();
-            if (len > m) {
+            if (len > m) { // 최대값이 발견되면 단어 교체 해주는 로직
                 m = len;
                 anwser = x;
             }
@@ -27,21 +27,22 @@ public class Main {
     }
 
     public String solution2(String str){
-        String anwser2 = "";
+        String anwser = "";
         int m = Integer.MIN_VALUE, pos;
-        while ((pos=str.indexOf(' '))!= -1) {
-            String tmp = str.substring(0, pos);
+        while ((pos=str.indexOf(' '))!= -1) { // indexOf 이용 해서 -> 띄어쓰기를 발견하면 -1 을 리턴함
+
+            String tmp = str.substring(0, pos); // 0 부터 pos 전까지.
             int len = tmp.length();
-            if (len > m) {
+            if (len > m) { // 같다로 하면 안됨 -> 뒤쪽 단어가 변경 되어 버림.
                 m = len;
-                anwser2 = tmp;
+                anwser = tmp;
             }
             str = str.substring(pos + 1);
         }
-        if(str.length()>m){
-            anwser2 = str;
+        if(str.length()>m){ // 마지막 단어 처리
+            anwser = str;
         }
-        return anwser2;
+        return anwser;
     }
 }
 
