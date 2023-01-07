@@ -1,4 +1,4 @@
-package BaekJoon.step20.ch02_제로;
+package BaekJoon.step20_스텍.ch02_제로;
 
 import java.util.Scanner;
 import java.util.Stack;

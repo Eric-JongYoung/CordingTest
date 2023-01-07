@@ -1,4 +1,4 @@
-package BaekJoon.step20.ch01_스택;
+package BaekJoon.step20_스텍.ch01_스택;
 
 import java.util.Scanner;
 
