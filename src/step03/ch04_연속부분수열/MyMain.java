@@ -21,7 +21,7 @@ public class MyMain {
         for (int rt = 0; rt < n; rt++) {
             sum += arr[rt];
             if(sum==m) answer++;
-            while (sum > m) {
+            while (sum >= m) {
                 sum -= arr[lt++];
                 if (sum == m) {
                     answer++;
