@@ -2,7 +2,7 @@ package BaekJoon.step20.ch01_스택;
 
 import java.util.Scanner;
 
-public class Main {
+public class N10828 {
     public static int[] arr;
     public static int size = 0;
 
