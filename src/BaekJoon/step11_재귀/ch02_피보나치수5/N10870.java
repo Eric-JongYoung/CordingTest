@@ -1,4 +1,4 @@
-package BaekJoon.Step11_재귀.ch02_피보나치수5;
+package BaekJoon.step11_재귀.ch02_피보나치수5;
 
 import java.util.Scanner;
 
