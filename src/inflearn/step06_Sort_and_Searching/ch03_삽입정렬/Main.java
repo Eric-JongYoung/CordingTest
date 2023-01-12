@@ -21,7 +21,7 @@ public class Main {
             for (j = i - 1; j >= 0; j--) {
                 if (arr[j] > tmp) {
                     arr[j + 1] = arr[j];
-                }else break;
+                }else break; // j for 문 멈춤
             }
             arr[j+1] = tmp;
         }
