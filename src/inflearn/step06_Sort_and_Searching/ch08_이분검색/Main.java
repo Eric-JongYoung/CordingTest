@@ -17,7 +17,6 @@ public class Main {
         }
         System.out.println(T.solution(n,m,arr));
     }
-
     public int solution(int n, int m, int[] arr) {
         int answer = 0;
         Arrays.sort(arr);
@@ -31,10 +30,7 @@ public class Main {
             if(arr[mid]>m) rt = mid - 1;
             else lt=mid+1;
         }
-
         return answer;
     }
-
-
 }
 
