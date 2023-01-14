@@ -1,4 +1,4 @@
-package BaekJoon.step21_큐_덱.ch04_요세푸스문제0;
+package BaekJoon.step21_큐_덱.ch03_요세푸스문제0;
 
 
 
