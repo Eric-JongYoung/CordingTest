@@ -11,11 +11,11 @@ public class Main {
         Q.offer(root);
         int L = 0;
         while (!Q.isEmpty()) {
-            int len = Q.size();
-            System.out.print(L + " : ");
-            for (int i = 0; i < len; i++) {
-                Node cur = Q.poll();
-                System.out.print(cur.data + " ");
+            int len = Q.size(); // Q의 원소의 갯수는 몇개인가
+            System.out.print(L + " : "); // L : Level :
+            for (int i = 0; i < len; i++) { // 해당 레벨의 원소를 봅는 방법
+                Node cur = Q.poll(); // Q에서 맨앞꺼 꺼내고
+                System.out.print(cur.data + " "); // 출력
                 if(cur.lt!=null) Q.offer(cur.lt); // 왼쪽자식 넣기
                 if(cur.rt!=null) Q.offer(cur.rt); // 오른쪽 자식 넣기
             }

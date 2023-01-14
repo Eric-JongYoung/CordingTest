@@ -1,4 +1,4 @@
-package inflearn.step07_DFS_BFS.ch05_이진트리순회_깊이우선탐색;
+package inflearn.step07_DFS_BFS.ch05_이진트리순회_깊이우선탐색_DFS;
 
 public class Main {
     Node root;
