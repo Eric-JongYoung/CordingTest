@@ -35,3 +35,5 @@ I DO my *BEST* 🔥
 <a href="https://solved.ac/profile/fgh1937">
   <img  src="https://camo.githubusercontent.com/8059929920dcbba8c47d8ed320606efcbbf6070b6f1ea24daf731c2ec971bfd4/687474703a2f2f6d617a617373756d6e6964612e7774662f6170692f76322f67656e65726174655f62616467653f626f6a3d66676831393337" alt="Solved.ac 프로필" data-canonical-src="http://mazassumnida.wtf/api/v2/generate_badge?boj=fgh1937" style="max-width: 100%;">
   </a> 
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEric-JongYoung%2FCordingTest&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
