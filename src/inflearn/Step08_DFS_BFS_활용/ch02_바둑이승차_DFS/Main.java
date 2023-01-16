@@ -19,12 +19,12 @@ public class Main {
     }
 
     public void DFS(int L, int sum, int[] arr) {
-        if(sum>c) return;
-        if(L==n){
+        if(sum>c) return; // C 무게 넘게는 태울 수 없으므로.
+        if(L==n){ // 바둑이 다 태운 상태
             answer = Math.max(answer, sum);
         }else {
-            DFS(L + 1, sum + arr[L], arr);
-            DFS(L + 1, sum, arr);
+            DFS(L + 1, sum + arr[L], arr); // 바둑이를 트럭에 태운다.
+            DFS(L + 1, sum, arr); // 바둑이를 트럭에 태우지 않는다.
 
         }
     }

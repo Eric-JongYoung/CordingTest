@@ -13,8 +13,8 @@ public class Main {
         int[] a = new int[n];
         int[] b = new int[n];
         for (int i = 0; i < n; i++) {
-            a[i] = kb.nextInt();
-            b[i] = kb.nextInt();
+            a[i] = kb.nextInt();// 점수
+            b[i] = kb.nextInt();// 제한시간
         }
         T.DFS(0, 0,0, a, b);
         System.out.println(answer);
@@ -23,12 +23,12 @@ public class Main {
      * @Param :  ps = problem score / pt = problem time
      * */
     public void DFS(int L, int sum,int time,int[] ps, int[]pt) {
-        if(time>m) return;
+        if(time>m) return; // 제한 시간이 넘어가는 경우
         if (L == n) {
             answer = Math.max(answer, sum);
         }else {
-            DFS(L + 1, sum + ps[L], time + pt[L], ps, pt); //문제 풀음
-            DFS(L + 1, sum , time, ps, pt); //문제 안 풀음
+            DFS(L + 1, sum + ps[L], time + pt[L], ps, pt); // 문제 풀음
+            DFS(L + 1, sum , time, ps, pt); // 문제 안 풀음
         }
     }
 }
