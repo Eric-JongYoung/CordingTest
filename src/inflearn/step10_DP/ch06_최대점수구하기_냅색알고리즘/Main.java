@@ -3,7 +3,6 @@ package inflearn.step10_DP.ch06_최대점수구하기_냅색알고리즘;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
