@@ -1,4 +1,4 @@
-package BaekJoon.step27_그래프와순회.유기농배추;
+package BaekJoon.step27_그래프와순회.ch08_유기농배추;
 
 import java.io.BufferedReader;
 import java.io.IOException;
