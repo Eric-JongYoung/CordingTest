@@ -10,7 +10,7 @@ public class N7562 {
     static int l;
     static int[] dx = {-1, -2, -2, -1, 1, 2, 2, 1};
     static int[] dy = {-2, -1, 1, 2, 2, 1, -1, -2};
-    static int[][] map;
+    static int[][] chessboard;
     static Point knight, target;
     static StringTokenizer st;
 
@@ -45,7 +45,7 @@ public class N7562 {
 
         for (int i = 0; i < tc; i++) {
             l = Integer.parseInt(br.readLine());
-            map = new int[l][l];
+            chessboard = new int[l][l];
             visited = new boolean[l][l];
             st = new StringTokenizer(br.readLine());
             knight = new Point(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()), 0);
