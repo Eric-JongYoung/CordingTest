@@ -6,17 +6,17 @@ I DO my *BEST* 🔥
 
 ![badge](https://img.shields.io/badge/-Prefix_Sum-%23F7DF1E?style=flat-square&color=3c679e)
 <img src="https://img.shields.io/badge/-Graph-%23F7DF1E?style=flat-square&color=E4637C"/>
-<img src="https://img.shields.io/badge/-DFS-%23F7DF1E?style=flat-square&color=1F36C7"/>
-<img src="https://img.shields.io/badge/-BFS-%23F7DF1E?style=flat-square&color=00A1E0"/>
-<img src="https://img.shields.io/badge/-Tree-%23F7DF1E?style=flat-square&color=E40046"/>
-<img src="https://img.shields.io/badge/-Brute_Force-%23F7DF1E?style=flat-square&color=548294"/>
-<img src="https://img.shields.io/badge/-Two_Pointer-%23F7DF1E?style=flat-square&color=FDB515"/>
+<img src="https://img.shields.io/badge/-DFS_🔍-%23F7DF1E?style=flat-square&color=1F36C7"/>
+<img src="https://img.shields.io/badge/-BFS_🗺️-%23F7DF1E?style=flat-square&color=00A1E0"/>
+<img src="https://img.shields.io/badge/-Tree_🌲-%23F7DF1E?style=flat-square&color=E40046"/>
+<img src="https://img.shields.io/badge/-Brute_Force-%23F7DF1E?style=flat-square&color=E31E52"/>
+<img src="https://img.shields.io/badge/-Two_Pointer_✌️-%23F7DF1E?style=flat-square&color=000000"/>
 <img src="https://img.shields.io/badge/-LIS-%23F7DF1E?style=flat-square&color=D1AB66"/>
 <img src="https://img.shields.io/badge/-Binary_Tree-%23F7DF1E?style=flat-square&color=FF61F6"/>
 <img src="https://img.shields.io/badge/-DP-%23F7DF1E?style=flat-square&color=F8DC75"/>
 <img src="https://img.shields.io/badge/-Back_Tracking-%23F7DF1E?style=flat-square&color=5A29E4"/>
 <img src="https://img.shields.io/badge/-BitMasking-%23F7DF1E?style=flat-square&color=A5CD39"/>
-<img src="https://img.shields.io/badge/-Greedy-%23F7DF1E?style=flat-square&color=E31E52"/>
+<img src="https://img.shields.io/badge/-Greedy_💎_🎒-%23F7DF1E?style=flat-square&color=548294"/>
 <p></p>
 
 <h3>How to?</h3>
