@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class Main {
     static int n, m;
     static ArrayList<ArrayList<Integer>> graph;
-    static int [] ch , dis;
+    static int[] ch, dis;
 
     public void BFS(int v) {
         Queue<Integer> Q = new LinkedList<>();
-        ch[v]=1;
+        ch[v] = 1;
         dis[v] = 0;
         Q.offer(v);
         while (!Q.isEmpty()) {

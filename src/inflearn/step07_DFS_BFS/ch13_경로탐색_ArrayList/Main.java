@@ -10,7 +10,7 @@ public class Main {
     static int[] ch;
 
     public void DFS(int v) {
-        if(v==n) answer++;
+        if (v == n) answer++;
         else {
             for (int nv : graph.get(v)) { // v 번 ArrayList 를 꺼내서 사용
                 if (ch[nv] == 0) {

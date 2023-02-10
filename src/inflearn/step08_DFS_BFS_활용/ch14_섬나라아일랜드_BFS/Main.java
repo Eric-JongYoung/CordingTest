@@ -7,38 +7,38 @@ import java.util.Scanner;
 
 
 class Main {
-	//8방향
+    //8방향
     static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
     static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
-	static int n, answer=0;
-	Queue<Point> queue = new LinkedList<>();
+    static int n, answer = 0;
+    Queue<Point> queue = new LinkedList<>();
 
-    public void BFS(int x , int y, int[][] board) {
-		queue.add(new Point(x, y)); // 첫번째 위치를 넣고
-		while (!queue.isEmpty()) {
-			Point pos = queue.poll();
-			for (int i = 0; i < 8; i++) {
-				int nx = pos.x + dx[i];
-				int ny = pos.y + dy[i];
-				if (nx >= 0 && nx < n && ny >= 0 && ny < n && board[nx][ny] == 1) {
-					board[nx][ny]=0;
-					queue.add(new Point(nx, ny));
-				}
-			}
-		}
+    public void BFS(int x, int y, int[][] board) {
+        queue.add(new Point(x, y)); // 첫번째 위치를 넣고
+        while (!queue.isEmpty()) {
+            Point pos = queue.poll();
+            for (int i = 0; i < 8; i++) {
+                int nx = pos.x + dx[i];
+                int ny = pos.y + dy[i];
+                if (nx >= 0 && nx < n && ny >= 0 && ny < n && board[nx][ny] == 1) {
+                    board[nx][ny] = 0;
+                    queue.add(new Point(nx, ny));
+                }
+            }
+        }
     }
 
-	public void solution(int[][] board) {
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < n; j++) {
-				if(board[i][j]==1){
-					answer++;
-					board[i][j] = 0 ;
-					BFS(i, j, board);
-				}
-			}
-		}
-	}
+    public void solution(int[][] board) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == 1) {
+                    answer++;
+                    board[i][j] = 0;
+                    BFS(i, j, board);
+                }
+            }
+        }
+    }
 
     public static void main(String[] args) {
         Main T = new Main();
@@ -50,16 +50,16 @@ class Main {
                 arr[i][j] = kb.nextInt();
             }
         }
-		T.solution(arr);
-		System.out.println(answer);
+        T.solution(arr);
+        System.out.println(answer);
     }
 }
 
-class Point{
-	int x,y;
+class Point {
+    int x, y;
 
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
 }

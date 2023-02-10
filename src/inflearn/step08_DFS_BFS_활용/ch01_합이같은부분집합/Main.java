@@ -21,16 +21,16 @@ public class Main {
     }
 
     private void DFS(int L, int sum, int[] arr) {
-        if(flag) return;
-        if(sum>total/2) return; // sum 값이 넘어가버리면 필요가 없으므로 리턴
-        if(L==n) {
+        if (flag) return; // 더이상 재귀를 돌 필요가 없으므로 return
+        if (sum > total / 2) return; // sum 값이 넘어가버리면 필요가 없으므로 리턴
+        if (L == n) {
             if ((total - sum) == sum) { // total 에서 sum 을 뺐을때, 그 값이 sum 이면 해당 값이 절반 값이므로 맞는 집합이다.
                 answer = "YES";
                 flag = true;
             }
-        }else {
-            DFS(L + 1, sum + arr[L], arr); // 왼쪽으로 뻣기 ( 부분집합에 포함하기)
-            DFS(L + 1, sum, arr); // 오른쪽을 뻣기 ( 부분집합에 미포함)
+        } else {
+            DFS(L + 1, sum + arr[L], arr); // 왼쪽으로 뻣기 (부분집합에 포함하기) - 누적하니까 arr[L] 을 더해주는거임
+            DFS(L + 1, sum, arr); // 오른쪽을 뻣기 (부분집합에 미포함) - 미포함이므로 arr[L]을 더하지 않는다.
         }
     }
 }

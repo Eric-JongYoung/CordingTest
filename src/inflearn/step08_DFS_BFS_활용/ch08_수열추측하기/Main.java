@@ -29,10 +29,10 @@ public class Main {
     }
 
     public void DFS(int L, int sum) {
-        if(flag) return; // 필요없는 스텍들 제거
+        if (flag) return; // 필요없는 스텍들 제거
         if (L == n) {
-            if(sum==f){
-                for(int x : p) System.out.print(x + " "); // 해당하는 배열 출력
+            if (sum == f) {
+                for (int x : p) System.out.print(x + " "); // 해당하는 배열 출력
                 flag = true;  //필요없는 스텍들 제거
             }
         } else {
