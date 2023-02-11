@@ -58,6 +58,7 @@ public class N2583 {
         for (int x : list) {
             System.out.print(x + " ");
         }
+        br.close();
     }
     // 3. bfs 로 영역 구해보기
     public static int bfs(Point pt) {
