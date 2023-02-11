@@ -1,4 +1,4 @@
-package BaekJoon.step27_그래프와순회.ch11_나이트의이동;
+package BaekJoon.step27_그래프와순회.ch11_나이트의이동_bfs;
 
 import java.io.*;
 import java.util.LinkedList;

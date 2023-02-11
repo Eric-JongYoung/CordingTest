@@ -1,4 +1,4 @@
-package BaekJoon.step27_그래프와순회.연결요소의개수;
+package BaekJoon.step27_그래프와순회.연결요소의개수_dfs;
 
 import java.io.BufferedReader;
 import java.io.IOException;

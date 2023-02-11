@@ -1,4 +1,4 @@
-package BaekJoon.step27_그래프와순회.영역구하기;
+package BaekJoon.step27_그래프와순회.영역구하기_bfs;
 
 import java.io.BufferedReader;
 import java.io.IOException;

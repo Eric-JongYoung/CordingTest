@@ -1,4 +1,4 @@
-package BaekJoon.step27_그래프와순회.ch12_토마토;
+package BaekJoon.step27_그래프와순회.ch12_토마토_bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;

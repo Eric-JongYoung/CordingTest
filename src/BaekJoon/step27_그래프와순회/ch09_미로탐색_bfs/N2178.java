@@ -1,4 +1,4 @@
-package BaekJoon.step27_그래프와순회.ch09_미로탐색;
+package BaekJoon.step27_그래프와순회.ch09_미로탐색_bfs;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package BaekJoon.step27_그래프와순회.ch10_숨바꼭질;
+package BaekJoon.step27_그래프와순회.ch10_숨바꼭질_bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
