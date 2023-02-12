@@ -1,4 +1,4 @@
-package BaekJoon.보라매컵2023.A;
+package BaekJoon.대회.보라매컵2023.A;
 
 import java.util.Scanner;
 

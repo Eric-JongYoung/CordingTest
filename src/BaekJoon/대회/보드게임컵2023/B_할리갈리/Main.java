@@ -1,4 +1,4 @@
-package BaekJoon.보드게임컵2023.B_할리갈리;
+package BaekJoon.대회.보드게임컵2023.B_할리갈리;
 
 import java.util.HashMap;
 import java.util.Scanner;
